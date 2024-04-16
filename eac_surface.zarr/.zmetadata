@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "thetao/.zarray": {
+            "chunks": [
+                9982,
+                72,
+                45
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 1.0000000200408773e+20,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                9982,
+                380,
+                240
+            ],
+            "zarr_format": 2
+        },
+        "thetao/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "yh",
+                "xh"
+            ],
+            "cell_measures": "volume: volcello area: areacello",
+            "cell_methods": "area:mean z_l:mean yh:mean xh:mean time: mean",
+            "long_name": "Sea Water Potential Temperature",
+            "missing_value": 1.0000000200408773e+20,
+            "standard_name": "sea_water_potential_temperature",
+            "time_avg_info": "average_T1,average_T2,average_DT",
+            "units": "degC"
+        },
+        "time/.zarray": {
+            "chunks": [
+                9982
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                9982
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "axis": "T",
+            "bounds": "time_bnds",
+            "calendar": "julian",
+            "calendar_type": "JULIAN",
+            "long_name": "time",
+            "units": "days since 1990-02-01"
+        },
+        "xh/.zarray": {
+            "chunks": [
+                240
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                240
+            ],
+            "zarr_format": 2
+        },
+        "xh/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "xh"
+            ],
+            "axis": "X",
+            "long_name": "h point nominal longitude",
+            "units": "degrees_east"
+        },
+        "yh/.zarray": {
+            "chunks": [
+                380
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                380
+            ],
+            "zarr_format": 2
+        },
+        "yh/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "yh"
+            ],
+            "axis": "Y",
+            "long_name": "h point nominal latitude",
+            "units": "degrees_north"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

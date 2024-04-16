@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "xh"
+    ],
+    "axis": "X",
+    "long_name": "h point nominal longitude",
+    "units": "degrees_east"
+}

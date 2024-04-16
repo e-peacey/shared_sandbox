@@ -1,0 +1,11 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "axis": "T",
+    "bounds": "time_bnds",
+    "calendar": "julian",
+    "calendar_type": "JULIAN",
+    "long_name": "time",
+    "units": "days since 1990-02-01"
+}

@@ -1,0 +1,14 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "yh",
+        "xh"
+    ],
+    "cell_measures": "volume: volcello area: areacello",
+    "cell_methods": "area:mean z_l:mean yh:mean xh:mean time: mean",
+    "long_name": "Sea Water Potential Temperature",
+    "missing_value": 1.0000000200408773e+20,
+    "standard_name": "sea_water_potential_temperature",
+    "time_avg_info": "average_T1,average_T2,average_DT",
+    "units": "degC"
+}
